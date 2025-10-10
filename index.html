@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGame - Sua Loja Gamer</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="assets/logo.png" alt="Logo TechGame" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="home-btn">Home</a></li>
+                    <li>
+                        <a href="#">Produtos ▾</a>
+                        <ul class="submenu">
+                            <li><a href="#teclados">Teclados</a></li>
+                            <li><a href="#mouses">Mouses</a></li>
+                            <li><a href="#headsets">Headsets</a></li>
+                            <li><a href="#impressoes3d">Impressões 3D</a></li>
+                            <li><a href="#jogosps5">Jogos PS5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="galeria.html">Galeria Estilos de Vida</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-toggle-checkbox" class="theme-toggle-checkbox" aria-label="Alternar entre tema claro e escuro">
+                <label for="theme-toggle-checkbox" class="theme-toggle-label">
+                    <span class="theme-toggle-icon"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner -->
+        <section class="banner">
+            <img src="assets/banner2.jpg" alt="Banner TechGame" class="banner-img">
+            <div class="banner-texto">
+                <h1>Bem-vindo à TechGame</h1>
+                <p><b>Os melhores periféricos gamers e produtos para você</b></p>
+            </div>
+        </section>
+
+        <!-- Categorias -->
+        <section class="categorias">
+            <h2>Categorias</h2>
+            <div class="categoria-menu">
+                <button class="categoria-btn active" data-categoria="teclados">Teclados</button>
+                <button class="categoria-btn" data-categoria="mouses">Mouses</button>
+                <button class="categoria-btn" data-categoria="headsets">Headsets</button>
+                <button class="categoria-btn" data-categoria="impressoes3d">Impressões 3D</button>
+                <button class="categoria-btn" data-categoria="jogosps5">Jogos PS5</button>
+            </div>
+        </section>
+
+        <!-- Produtos -->
+        <section class="produtos-destaque">
+            <div id="teclados" class="categoria-produtos active">
+                <h3>Teclados</h3>
+                <div class="produtos-lista">
+                    <div class="produto">
+                        <img src="assets/teclado.avif" alt="Teclado Gamer">
+                        <h4>Teclado Mecânico RGB</h4>
+                        <p>Teclado mecânico com iluminação RGB personalizável.</p>
+                        <p class="preco">R$ 299,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="assets/teclado2.jpeg" alt="Teclado Gamer">
+                        <h4>Teclado Mecânico Compacto</h4>
+                        <p>Teclado compacto ideal para setups minimalistas.</p>
+                        <p class="preco">R$ 199,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="assets/teclado3.jpeg" alt="Teclado Gamer">
+                        <h4>Teclado Mecânico Compacto</h4>
+                        <p>Teclado compacto ideal para setups minimalistas.</p>
+                        <p class="preco">R$ 139,90</p>
+                    </div>
+                </div>
+            </div>
+            <div id="mouses" class="categoria-produtos">
+                <h3>Mouses</h3>
+                <div class="produtos-lista">
+                    <div class="produto">
+                        <img src="assets/mouse 16000.jpg" alt="Mouse Gamer">
+                        <h4>Mouse Gamer 16000 DPI</h4>
+                        <p>Mouse com alta precisão e botões programáveis.</p>
+                        <p class="preco">R$ 149,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="assets/mouse bateria.jpeg" alt="Mouse Gamer">
+                        <h4>Mouse Ergonômico</h4>
+                        <p>Design ergonômico para longas sessões de jogo.</p>
+                        <p class="preco">R$ 99,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="assets/mouse.avif" alt="Mouse Gamer Pro">
+                        <h4>Mouse Gamer Pro</h4>
+                        <p>Sensor óptico avançado, até 16000 DPI e RGB dinâmico.</p>
+                        <p class="preco">R$ 199,90</p>
+                    </div>
+                </div>
+            </div>
+            <div id="headsets" class="categoria-produtos">
+                <h3>Headsets</h3>
+                <div class="produtos-lista">
+                    <div class="produto">
+                        <img src="assets/hedset1.png" alt="Headset Gamer">
+                        <h4>Headset Surround 7.1</h4>
+                        <p>Áudio imersivo com microfone retrátil.</p>
+                        <p class="preco">R$ 249,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="assets/headset2.webp" alt="Headset Gamer">
+                        <h4>Headset Wireless</h4>
+                        <p>Headset sem fio com bateria de longa duração.</p>
+                        <p class="preco">R$ 349,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="assets/headset3.jpeg" alt="Headset Gamer Branco">
+                        <h4>Headset Gamer Branco</h4>
+                        <p>Design elegante com áudio cristalino e microfone removível.</p>
+                        <p class="preco">R$ 399,90</p>
+                    </div>
+                </div>
+            </div>
+            <div id="impressoes3d" class="categoria-produtos">
+                <h3>Impressões 3D</h3>
+                <div class="produtos-lista">
+                    <div class="produto">
+                        <img src="assets/estatua.jpeg" alt="Impressão 3D">
+                        <h4>Figura Personalizada</h4>
+                        <p>Figura 3D personalizada sob encomenda.</p>
+                        <p class="preco">R$ 89,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="assets/organizador.jpg" alt="Impressão 3D">
+                        <h4>Acessório Gamer 3D</h4>
+                        <p>Acessórios exclusivos impressos em 3D.</p>
+                        <p class="preco">R$ 59,90</p>
+                    </div>
+                </div>
+            </div>
+            <div id="jogosps5" class="categoria-produtos">
+                <h3>Jogos PS5</h3>
+                <div class="produtos-lista">
+                    <div class="produto">
+                        <img src="assets/horizon.jpeg" alt="Jogo PS5">
+                        <h4>Jogo de Aventura</h4>
+                        <p>Explore mundos incríveis com gráficos de última geração.</p>
+                        <p class="preco">R$ 199,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="assets/OIP.jpeg" alt="Jogo PS5">
+                        <h4>Jogo de Ação</h4>
+                        <p>Ação intensa com jogabilidade fluida.</p>
+                        <p class="preco">R$ 249,90</p>
+                    </div>
+                    <div class="produto">
+                        <img src="assets/image.jpeg" alt="God of War Ragnarök PS5">
+                        <h4>God of War Ragnarök</h4>
+                        <p>Viva a jornada épica de Kratos e Atreus em um dos maiores exclusivos do PS5.</p>
+                        <p class="preco">R$ 299,90</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeria -->
+        <section class="galeria" id="galeria">
+            <h2 class="titulo-centralizado">Nossa Galeria</h2>
+            <div class="filtros-galeria">
+                <!-- Botões de filtro e "Redefinir Filtros" removidos -->
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item" data-categoria="teclados">
+                    <img src="assets/teclado mecanico rgb asus.webp" alt="Teclado Mecânico RGB">
+                    <div class="galeria-overlay">
+                        <h3>Teclado Mecânico RGB</h3>
+                        <p>Iluminação personalizável para gamers.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="mouses">
+                    <img src="assets/mouseredragon.jpg" alt="Mouse Gamer 16000 DPI">
+                    <div class="galeria-overlay">
+                        <h3>Mouse Gamer 16000 DPI</h3>
+                        <p>Alta precisão para jogos competitivos.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+                <div class="galeria-item galeria-item-grande" data-categoria="teclados">
+                    <img src="assets/tecladopremium.jpg" alt="Teclado Mecânico Premium">
+                    <div class="galeria-overlay">
+                        <h3>Teclado Mecânico Premium</h3>
+                        <p>Design robusto com switches de alta qualidade.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="headsets">
+                    <img src="assets/headsetsurround.webp" alt="Headset Surround 7.1">
+                    <div class="galeria-overlay">
+                        <h3>Headset Surround 7.1</h3>
+                        <p>Áudio imersivo para uma experiência completa.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="mouses">
+                    <img src="assets/mousergonomico.webp" alt="Mouse Ergonômico">
+                    <div class="galeria-overlay">
+                        <h3>Mouse Ergonômico</h3>
+                        <p>Conforto para longas sessões de jogo.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="headsets">
+                    <img src="assets/headset wireless.webp" alt="Headset Wireless">
+                    <div class="galeria-overlay">
+                        <h3>Headset Wireless</h3>
+                        <p>Liberdade de movimento sem perda de qualidade.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="impressoes3d">
+                    <img src="assets/onepieceestatua.jpg" alt="Figura Personalizada 3D">
+                    <div class="galeria-overlay">
+                        <h3>Figura Personalizada 3D</h3>
+                        <p>Design único criado sob encomenda.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+                <div class="galeria-item galeria-item-grande" data-categoria="impressoes3d">
+                    <img src="assets/nicho.jpg" alt="Acessório Gamer 3D">
+                    <div class="galeria-overlay">
+                        <h3>Acessório Gamer 3D</h3>
+                        <p>Acessório personalizado para setups gamers.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="jogosps5">
+                    <img src="assets/image.jpeg" alt="Jogo de Aventura PS5">
+                    <div class="galeria-overlay">
+                        <h3>Jogo de Aventura PS5</h3>
+                        <p>Aventura épica com gráficos impressionantes.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="jogosps5">
+                    <img src="assets/eldenring.webp" alt="Jogo de Ação PS5">
+                    <div class="galeria-overlay">
+                        <h3>Jogo de Ação PS5</h3>
+                        <p>Ação intensa com jogabilidade fluida.</p>
+                        <button class="btn-ver-mais">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div id="modalGaleria" class="modal-galeria" tabindex="0" aria-hidden="true">
+                <span class="fechar-modal">&times;</span>
+                <img class="modal-conteudo" id="modalImagem" alt="Imagem ampliada">
+                <div class="modal-caption" id="modalCaption"></div>
+                <div class="modal-navegacao">
+                    <button class="nav-btn prev" aria-label="Imagem anterior">❮ Anterior</button>
+                    <button class="nav-btn next" aria-label="Próxima imagem">Próximo ❯</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="assets/logo.png" alt="Logo TechGame" class="logo-rodape">
+        <p>&copy; 2025 TechGame. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js" defer></script>
+</body>
+
+</html>
