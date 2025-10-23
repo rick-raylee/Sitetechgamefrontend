@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - TechGame</title>
+    <link rel="stylesheet" href="mapa.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -84,6 +85,34 @@
             background: linear-gradient(135deg, #00e0ff, #0f3460);
             transform: translateY(-3px);
         }
+        
+        #map {
+            height: 400px;
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            display: none;
+            /* Ocultei o mapa original, pois será em outra página */
+        }
+        
+        .map-button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #4ecca3, #1a1a2e);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-block;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .map-button:hover {
+            background: linear-gradient(135deg, #00e0ff, #0f3460);
+            transform: translateY(-3px);
+        }
     </style>
 </head>
 
@@ -110,9 +139,13 @@
         <div class="contact-info">
             <p><strong>📞 Telefone:</strong> (11) 91234-5678</p>
             <p><strong>📝 CNPJ:</strong> 12.345.678/0001-99</p>
+            <p><strong>📍 Endereço:</strong> Rua Gamer Fictícia, 456, Cidade Virtual - CV, Brasil</p>
+            <a href="mapa.html" class="map-button">Ver Mapa</a>
         </div>
-    </div>
 
+        <div id="map"></div>
+    </div>
+    <script src="mapa.js"></script>
 </body>
 
 </html>
